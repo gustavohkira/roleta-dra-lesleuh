@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(180deg,#fdf9f7,#fff,#f7efe8);
+    color:#5b4b3f;
+}
+
+header{
+    padding:25px;
+    text-align:center;
+}
+
+.logo{
+    font-size:34px;
+    font-weight:700;
+    color:#b68b4c;
+    letter-spacing:2px;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+    color:#7a5c3e;
+}
+
+.hero h2{
+    margin-top:10px;
+    color:#b68b4c;
+    font-weight:500;
+}
+
+.hero p{
+    max-width:650px;
+    margin:25px auto;
+    font-size:18px;
+    line-height:1.7;
+}
+
+.botaoPrincipal{
+    display:inline-block;
+    margin-top:25px;
+    padding:18px 40px;
+    border-radius:50px;
+    text-decoration:none;
+    background:#b68b4c;
+    color:white;
+    font-size:20px;
+    transition:.3s;
+}
+
+.botaoPrincipal:hover{
+    transform:scale(1.05);
+}
+
+#roleta{
+    padding:70px 20px;
+    text-align:center;
+}
+
+#roleta h2{
+    margin-bottom:40px;
+}
+
+#wheel{
+    width:380px;
+    height:380px;
+    margin:auto;
+    border-radius:50%;
+    border:12px solid #b68b4c;
+
+    background:
+    conic-gradient(
+    #ffd7d7 0deg 45deg,
+    #ffe8c7 45deg 90deg,
+    #fef3d8 90deg 135deg,
+    #fff7ef 135deg 180deg,
+    #f9d6df 180deg 225deg,
+    #ffe4c1 225deg 270deg,
+    #fcefd6 270deg 315deg,
+    #f7d5d5 315deg 360deg);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+#center{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    background:#b68b4c;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    font-size:20px;
+
+}
+
+.acoes{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+padding:60px;
+
+}
+
+.acoes a{
+
+padding:15px 30px;
+
+background:white;
+
+border-radius:40px;
+
+text-decoration:none;
+
+color:#7a5c3e;
+
+box-shadow:0 8px 25px rgba(0,0,0,.1);
+
+transition:.3s;
+
+}
+
+.acoes a:hover{
+
+transform:translateY(-5px);
+
+}
+
+footer{
+
+text-align:center;
+
+padding:40px;
+
+color:#888;
+
+}
+
+@media(max-width:600px){
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+#wheel{
+
+width:300px;
+
+height:300px;
+
+}
+
+}
