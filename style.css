@@ -186,3 +186,61 @@ height:300px;
 }
 
 }
+
+.topo{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.logo{
+    width:180px;
+    margin-bottom:25px;
+}
+
+.topo h1{
+    font-size:52px;
+    color:#7d5a3c;
+}
+
+.topo h2{
+    color:#bf8b47;
+    margin:15px 0;
+}
+
+.topo p{
+    max-width:700px;
+    margin:20px auto;
+    color:#666;
+    font-size:20px;
+}
+
+.botoes{
+    margin-top:35px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn,.btn2{
+    padding:16px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn{
+    background:#bf8b47;
+    color:white;
+}
+
+.btn2{
+    background:white;
+    color:#bf8b47;
+    border:2px solid #bf8b47;
+}
+
+.btn:hover,.btn2:hover{
+    transform:scale(1.05);
+}
